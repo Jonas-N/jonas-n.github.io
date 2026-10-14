@@ -1,0 +1,62 @@
+# Personal academic homepage.
+# Edit the values here rather than hard-coding them in pages or layouts.
+# Publications, talks, positions, and education live in _data/.
+
+title: "Jonas Nölle"
+tagline: "Experimental cognitive scientist"
+description: >-
+  Jonas Nölle is a postdoctoral researcher at the Centre for Language Evolution
+  Studies, Nicolaus Copernicus University in Toruń, and an affiliate at the
+  University of Glasgow. He studies language evolution, multimodal interaction,
+  and virtual reality.
+updated: "October 2026"
+
+# User site: https://jonas-n.github.io (repository jonas-n.github.io).
+# baseurl stays empty because the site is served at the domain root.
+baseurl: ""
+url: "https://jonas-n.github.io"
+
+author:
+  name: "Jonas Nölle"
+  given: "Jonas"
+  family: "Nölle"
+  email: "jonas.noelle@glasgow.ac.uk"
+  job_title: "Postdoctoral Researcher"
+  orcid: "0000-0003-3546-2689"
+
+affiliation:
+  role: "Postdoctoral Researcher"
+  org: "Centre for Language Evolution Studies"
+  university: "Nicolaus Copernicus University in Toruń"
+  url: "https://cles.umk.pl/"
+  street: "Collegium Maius, ul. Fosa Staromiejska 3"
+  city: "87-100 Toruń, Poland"
+
+glasgow:
+  role: "Affiliate"
+  org: "School of Psychology and Neuroscience"
+  university: "University of Glasgow"
+  url: "https://www.gla.ac.uk/schools/psychologyneuroscience/staff/jonasn/"
+
+links:
+  email: "mailto:jonas.noelle@glasgow.ac.uk"
+  orcid: "https://orcid.org/0000-0003-3546-2689"
+  scholar: "https://scholar.google.com/citations?user=iISC70gAAAAJ&hl=en"
+  github: "https://github.com/Jonas-N"
+  mastodon: "https://fediscience.org/@jn"
+  x: "https://x.com/jonasnoelle"
+  mosaic: "https://mosaicseminar.uk"
+  cles: "https://cles.umk.pl/"
+  glasgow: "https://www.gla.ac.uk/schools/psychologyneuroscience/staff/jonasn/"
+  journal: "https://www.cambridge.org/core/journals/language-and-cognition/"
+
+markdown: kramdown
+permalink: pretty
+timezone: Europe/Warsaw
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .gitignore

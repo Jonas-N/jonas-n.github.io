@@ -1,0 +1,28 @@
+# Current roles first. end: present means the appointment is ongoing.
+- role: Postdoctoral Researcher
+  org: Centre for Language Evolution Studies, Nicolaus Copernicus University in Toruń
+  url: https://cles.umk.pl/
+  place: Toruń, Poland
+  start: May 2025
+  end: present
+  note: Faculty of Humanities.
+
+- role: Affiliate
+  org: School of Psychology and Neuroscience, University of Glasgow
+  url: https://www.gla.ac.uk/schools/psychologyneuroscience/staff/jonasn/
+  place: Glasgow, UK
+  start: July 2024
+  end: present
+
+- role: Research Scientist
+  org: Multimodal Language Department, Max Planck Institute for Psycholinguistics
+  place: Nijmegen, Netherlands
+  start: September 2024
+  end: October 2024
+
+- role: Research Associate
+  org: FACESYNTAX, School of Psychology and Neuroscience, University of Glasgow
+  place: Glasgow, UK
+  start: September 2020
+  end: August 2024
+  note: ERC project led by Rachael Jack.

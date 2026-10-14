@@ -1,0 +1,24 @@
+<article class="pub" id="{{ include.pub.slug }}">
+  <div class="pub-year">{{ include.pub.year }}</div>
+  <h3 class="pub-title">
+    {% if include.pub.url %}
+      <a href="{{ include.pub.url }}">{{ include.pub.title }}</a>
+    {% else %}
+      {{ include.pub.title }}
+    {% endif %}
+  </h3>
+  <p class="pub-authors">{{ include.pub.authors | markdownify | replace: '<p>', '' | replace: '</p>', '' | strip_newlines }}</p>
+  {% if include.pub.venue %}
+  <p class="pub-venue">{{ include.pub.venue | markdownify | replace: '<p>', '' | replace: '</p>', '' | strip_newlines }}</p>
+  {% endif %}
+  {% if include.pub.links %}
+  <p class="pub-links">
+    {% for link in include.pub.links %}
+      <a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %}<span aria-hidden="true"> · </span>{% endunless %}
+    {% endfor %}
+  </p>
+  {% endif %}
+  {% if include.pub.note %}
+  <p class="pub-note">{{ include.pub.note }}</p>
+  {% endif %}
+</article>

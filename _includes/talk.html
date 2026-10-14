@@ -1,0 +1,13 @@
+<article class="talk">
+  <div class="talk-year">{{ include.talk.year }}</div>
+  <h3 class="talk-title">
+    {% if include.talk.url %}
+      <a href="{{ include.talk.url }}">{{ include.talk.title }}</a>
+    {% else %}
+      {{ include.talk.title }}
+    {% endif %}
+    {% if include.talk.label %}<span class="label">{{ include.talk.label }}</span>{% endif %}
+  </h3>
+  {% if include.talk.with %}<p class="talk-with">With {{ include.talk.with }}.</p>{% endif %}
+  <p class="talk-event">{{ include.talk.event }}{% if include.talk.place %} <span class="place">· {{ include.talk.place }}</span>{% endif %}</p>
+</article>

@@ -1,0 +1,343 @@
+:root {
+  --bg: #f6f3ee;
+  --ink: #1c1917;
+  --muted: #5e574e;
+  --rule: #e3dbd0;
+  --accent: #1e4d45;
+  --accent-ink: #14362f;
+  --paper: #fffcf8;
+  --serif: "Newsreader", "Iowan Old Style", Palatino, Georgia, serif;
+  --sans: "Source Sans 3", "Segoe UI", sans-serif;
+  --measure: 44rem;
+  --space: 1.15rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161411;
+    --ink: #f3efe8;
+    --muted: #b7aea2;
+    --rule: #3a342c;
+    --accent: #8fcec0;
+    --accent-ink: #c9efe6;
+    --paper: #1e1b17;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 1.0625rem;
+  line-height: 1.55;
+}
+
+.skip {
+  position: absolute;
+  left: 0.75rem;
+  top: -3rem;
+  background: var(--accent);
+  color: #fff;
+  padding: 0.4rem 0.7rem;
+  z-index: 10;
+}
+
+.skip:focus { top: 0.75rem; }
+
+.wrap {
+  width: min(var(--measure), calc(100% - 2.4rem));
+  margin-inline: auto;
+}
+
+a {
+  color: var(--accent-ink);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+a:hover { color: var(--accent); }
+
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--rule);
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.header-inner {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem 1.5rem;
+  padding: 0.9rem 0;
+  flex-wrap: wrap;
+}
+
+.brand {
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 650;
+  color: var(--ink);
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+}
+
+.site-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.98rem;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  color: var(--ink);
+}
+
+.site-nav a[aria-current="page"] {
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 0.28em;
+}
+
+main { padding: 2.2rem 0 3rem; }
+
+h1, h2, h3 {
+  font-family: var(--serif);
+  font-weight: 550;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.35rem;
+  margin: 0 0 0.35rem;
+}
+
+h2 {
+  font-size: 1.55rem;
+  margin: 2.4rem 0 0.8rem;
+}
+
+h3 { font-size: 1.12rem; }
+
+.lede {
+  font-size: 1.12rem;
+  max-width: 40rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.2rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.identity {
+  display: grid;
+  grid-template-columns: 11.5rem 1fr;
+  gap: 1.6rem 1.8rem;
+  align-items: start;
+  margin-bottom: 1.8rem;
+}
+
+.portrait {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 2px;
+  background: var(--rule);
+}
+
+.identity h1 { font-size: 2.5rem; }
+
+.role {
+  margin: 0.15rem 0;
+  color: var(--ink);
+}
+
+.role a { color: inherit; }
+
+.place {
+  color: var(--muted);
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.9rem;
+  margin: 0.9rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-links a { font-weight: 600; }
+
+.prose p { margin: 0.8rem 0; }
+
+.prose h2:first-child { margin-top: 0; }
+
+.interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.6rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.interests li {
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  border-radius: 999px;
+  padding: 0.15rem 0.7rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.pub, .talk {
+  position: relative;
+  margin: 0 0 1.25rem;
+  padding-left: 4.2rem;
+}
+
+.pub-year, .talk-year {
+  position: absolute;
+  left: 0;
+  top: 0.15rem;
+  width: 3.4rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.95rem;
+}
+
+.pub-title, .talk-title {
+  font-family: var(--sans);
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: 0;
+  line-height: 1.35;
+}
+
+.pub-title a, .talk-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.pub-title a:hover, .talk-title a:hover { text-decoration: underline; }
+
+.pub-authors, .pub-venue, .talk-with, .talk-event, .pub-note {
+  margin: 0.15rem 0 0;
+}
+
+.pub-authors, .talk-with, .pub-venue, .talk-event, .pub-note {
+  color: var(--muted);
+}
+
+.pub-authors strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.pub-links {
+  margin: 0.25rem 0 0;
+  font-size: 0.92rem;
+}
+
+.label {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.05rem 0.4rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+  vertical-align: 0.1em;
+}
+
+.section-intro {
+  color: var(--muted);
+  margin-top: 0;
+}
+
+.timeline, .plain-list {
+  margin: 0.4rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.timeline li, .plain-list li {
+  padding: 0.75rem 0;
+  border-top: 1px solid var(--rule);
+}
+
+.timeline .when {
+  margin: 0;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.95rem;
+}
+
+.timeline .what { margin: 0.1rem 0 0; }
+
+.timeline .note, .edu-note {
+  margin: 0.2rem 0 0;
+  color: var(--muted);
+}
+
+.page-title { margin-bottom: 0.4rem; }
+
+.site-footer {
+  border-top: 1px solid var(--rule);
+  padding: 1.4rem 0 2.2rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.site-footer p { margin: 0.25rem 0; }
+
+.site-footer strong { color: var(--ink); }
+
+.footer-meta { font-size: 0.88rem; }
+
+@media (max-width: 680px) {
+  .identity { grid-template-columns: 8.5rem 1fr; gap: 1rem; }
+  h1, .identity h1 { font-size: 2rem; }
+  .pub, .talk { padding-left: 0; }
+  .pub-year, .talk-year {
+    position: static;
+    display: block;
+    margin-bottom: 0.1rem;
+  }
+}
+
+@media print {
+  .site-header, .site-footer, .skip, .contact-links { display: none; }
+  body { background: #fff; color: #000; font-size: 11pt; }
+  a { color: #000; text-decoration: none; }
+  main { padding: 0; }
+  .wrap { width: auto; }
+}

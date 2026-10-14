@@ -1,0 +1,282 @@
+# Newest first. type is article, chapter, proceedings, preprint, thesis, or edited.
+# featured: true items appear on the home page, in this order.
+# Bold your own name with **Nölle, J.** so the publications page can pick it out.
+# To add a paper, copy a block and give it a new slug.
+
+- slug: city-speaks-2026
+  year: 2026
+  type: article
+  featured: true
+  title: "When the city speaks: How urban form shapes the cultural transmission of spatial conceptualization"
+  authors: "Alinam, Z., Fusaroli, R., **Nölle, J. M.**, Vesper, C., & Tylén, K."
+  venue: "*Open Mind*, 10, 1310–1337."
+  url: https://doi.org/10.1162/OPMI.a.380
+  links:
+    - label: DOI
+      url: https://doi.org/10.1162/OPMI.a.380
+
+- slug: evolutionary-linguistics-2026
+  year: 2026
+  type: chapter
+  featured: true
+  title: "Evolutionary linguistics"
+  authors: "**Nölle, J. M.**, Karjus, A., & Hartmann, S."
+  venue: "In *International Encyclopedia of Language and Linguistics* (pp. 375–379). Elsevier."
+  url: https://doi.org/10.1016/B978-0-323-95504-1.00907-8
+  links:
+    - label: DOI
+      url: https://doi.org/10.1016/B978-0-323-95504-1.00907-8
+    - label: Open access
+      url: https://doi.org/10.31234/osf.io/rt5ha_v1
+
+- slug: confidence-preprint-2026
+  year: 2026
+  type: preprint
+  featured: true
+  title: "Dynamic facial movements shape how confident speakers appear"
+  authors: "**Nölle, J.**, Wu, Y., Arias Sarah, P., Garrod, O. G. B., Schyns, P. G., & Jack, R. E."
+  venue: "PsyArXiv preprint."
+  url: https://doi.org/10.31234/osf.io/8hqy9_v1
+  links:
+    - label: Preprint
+      url: https://doi.org/10.31234/osf.io/8hqy9_v1
+
+- slug: vr-cognition-handbook
+  year: 2026
+  type: chapter
+  title: "Investigating language and cognition in virtual reality"
+  authors: "**Nölle, J.**, Titus, A., Zhou, C., & Peeters, D."
+  venue: "Forthcoming in S. Hartmann & L. J. Speed (eds.), *The Bloomsbury Handbook of Language and Cognition*. Bloomsbury."
+  url: https://doi.org/10.31234/osf.io/s2xdp_v1
+  links:
+    - label: Preprint
+      url: https://doi.org/10.31234/osf.io/s2xdp_v1
+  note: Forthcoming chapter. The preprint is the public version.
+
+- slug: pansimian-2026
+  year: 2026
+  type: proceedings
+  title: "The pan-simian geocentric bias revisited: Novel spatial communication systems show a sagittal egocentric bias"
+  authors: "**Nölle, J.**, Kirby, S., Culbertson, J., & Smith, K."
+  venue: "In *Proceedings of the 16th International Conference on the Evolution of Language (EVOLANG XVI)*. Plovdiv."
+  url: https://evolang.org/2026/proceedings/paper.html?nr=88
+  links:
+    - label: Proceedings
+      url: https://evolang.org/2026/proceedings/paper.html?nr=88
+
+- slug: folk-dance-2026
+  year: 2026
+  type: proceedings
+  title: "Folk dance as an ancient semiotic system and cultural replicator"
+  authors: "Yiang, Y., Tinits, P., Tamariz, M., & **Nölle, J.**"
+  venue: "In *Proceedings of the 16th International Conference on the Evolution of Language (EVOLANG XVI)*. Plovdiv."
+  url: https://evolang.org/2026/proceedings/paper.html?nr=90
+  links:
+    - label: Proceedings
+      url: https://evolang.org/2026/proceedings/paper.html?nr=90
+
+- slug: evolang16-edited
+  year: 2026
+  type: edited
+  title: "Proceedings of the 16th International Conference on the Evolution of Language (EVOLANG XVI)"
+  authors: "Hartmann, S., Sibierska, M., Fröhlich, M., Jadoul, Y., Josserand, M., Matzinger, T., Mudd, K., **Nölle, J.**, Pleyer, M., Wacewicz, S., & Żywiczyński, P. (eds.)"
+  venue: "The Evolution of Language Conferences."
+  url: https://sites.google.com/york.ac.uk/evolang2026
+  links:
+    - label: Conference
+      url: https://sites.google.com/york.ac.uk/evolang2026
+
+- slug: oxford-vr-2025
+  year: 2025
+  type: chapter
+  featured: true
+  title: "Virtual reality as a tool to study language evolution"
+  authors: "**Nölle, J.** & Peeters, D."
+  venue: "In C. Boeckx & L. Raviv (eds.), *The Oxford Handbook of Approaches to Language Evolution* (pp. 63–82). Oxford University Press."
+  url: https://doi.org/10.1093/oxfordhb/9780192886491.013.5
+  links:
+    - label: DOI
+      url: https://doi.org/10.1093/oxfordhb/9780192886491.013.5
+    - label: Preprint
+      url: https://doi.org/10.31234/osf.io/b8f6h
+
+- slug: roots-face-2024
+  year: 2024
+  type: proceedings
+  title: "The roots of facial expressions: Pragmatic and semantic facial expressions comprise biologically rooted facial movements"
+  authors: "**Nölle, J.**, Wu, Y., Arias, P., Chen, C., Garrod, O. G. B., Schyns, P. G., & Jack, R. E."
+  venue: "In *The Evolution of Language: Proceedings of the 15th International Conference (EVOLANG XV)*."
+  url: https://doi.org/10.17617/2.3587960
+  links:
+    - label: Volume
+      url: https://doi.org/10.17617/2.3587960
+
+- slug: evolang15-edited
+  year: 2024
+  type: edited
+  title: "The evolution of language: Proceedings of the 15th International Conference (EVOLANG XV)"
+  authors: "**Nölle, J.**, Raviv, L., Graham, K. E., Hartmann, S., Jadoul, Y., Josserand, M., Matzinger, T., Mudd, K., Pleyer, M., Slonimska, A., Wacewicz, S., & Watson, S. (eds.)"
+  venue: "Nijmegen: The Evolution of Language Conferences."
+  url: https://doi.org/10.17617/2.3587960
+  links:
+    - label: DOI
+      url: https://doi.org/10.17617/2.3587960
+
+- slug: field-lab-2022
+  year: 2022
+  type: article
+  title: "From the field into the lab: Causal approaches to the evolution of spatial language"
+  authors: "**Nölle, J.** & Spranger, M."
+  venue: "*Linguistics Vanguard*, 8(s1), 191–203."
+  url: https://doi.org/10.1515/lingvan-2020-0007
+  links:
+    - label: DOI
+      url: https://doi.org/10.1515/lingvan-2020-0007
+    - label: Preprint
+      url: https://doi.org/10.31234/osf.io/mytfd
+
+- slug: experimental-semiotics-2022
+  year: 2022
+  type: chapter
+  title: "Experimental semiotics: Past, present, and future"
+  authors: "**Nölle, J.** & Galantucci, B."
+  venue: "In A. M. García & A. Ibáñez (eds.), *The Routledge Handbook of Semiosis and the Brain* (pp. 66–81). Routledge."
+  url: https://doi.org/10.4324/9781003051817-6
+  links:
+    - label: DOI
+      url: https://doi.org/10.4324/9781003051817-6
+    - label: Preprint
+      url: https://doi.org/10.31234/osf.io/xn9yq
+
+- slug: chield-2020
+  year: 2020
+  type: article
+  title: "CHIELD: The causal hypotheses in evolutionary linguistics database"
+  authors: "Roberts, S. G., et al. (including **Nölle, J.**)"
+  venue: "*Journal of Language Evolution*, 5(2), 101–120."
+  url: https://doi.org/10.1093/jole/lzaa001
+  links:
+    - label: DOI
+      url: https://doi.org/10.1093/jole/lzaa001
+
+- slug: survey-2020
+  year: 2020
+  type: article
+  title: "Language evolution research in the year 2020: A survey of new directions"
+  authors: "**Nölle, J.**, Hartmann, S., & Tinits, P."
+  venue: "*Language Dynamics and Change*, 10(1), 3–26."
+  url: https://doi.org/10.1163/22105832-bja10005
+  links:
+    - label: DOI
+      url: https://doi.org/10.1163/22105832-bja10005
+    - label: Preprint
+      url: https://doi.org/10.31234/osf.io/7xwju
+  note: Introduces two special issues I guest-edited.
+
+- slug: palgrave-2020
+  year: 2020
+  type: article
+  featured: true
+  title: "Language as shaped by the environment: Linguistic construal in a collaborative spatial task"
+  authors: "**Nölle, J.**, Fusaroli, R., Mills, G. J., & Tylén, K."
+  venue: "*Palgrave Communications*, 6, 27."
+  url: https://doi.org/10.1057/s41599-020-0404-9
+  links:
+    - label: DOI
+      url: https://doi.org/10.1057/s41599-020-0404-9
+    - label: Preprint
+      url: https://doi.org/10.31234/osf.io/pk4xs
+
+- slug: evolang13-vr
+  year: 2020
+  type: proceedings
+  title: "Does environment shape spatial language? A virtual reality experiment"
+  authors: "**Nölle, J.**, Kirby, S., Culbertson, J., & Smith, K."
+  venue: "In A. Ravignani et al. (eds.), *The Evolution of Language: Proceedings of the 13th International Conference (EVOLANG XIII)*."
+  url: https://doi.org/10.17617/2.3190925
+  links:
+    - label: DOI
+      url: https://doi.org/10.17617/2.3190925
+
+- slug: evolang13-iconicity
+  year: 2020
+  type: proceedings
+  title: "Iconicity in sign grounding: Representation or disambiguation?"
+  authors: "**Nölle, J.**, Fusaroli, R., & Tylén, K."
+  venue: "In A. Ravignani et al. (eds.), *The Evolution of Language: Proceedings of the 13th International Conference (EVOLANG XIII)*."
+  url: https://doi.org/10.17617/2.3190925
+  links:
+    - label: DOI
+      url: https://doi.org/10.17617/2.3190925
+
+- slug: cognition-2018
+  year: 2018
+  type: article
+  featured: true
+  title: "The emergence of systematicity: How environmental and communicative factors shape a novel communication system"
+  authors: "**Nölle, J.**, Staib, M., Fusaroli, R., & Tylén, K."
+  venue: "*Cognition*, 181, 93–104."
+  url: https://doi.org/10.1016/j.cognition.2018.08.014
+  links:
+    - label: DOI
+      url: https://doi.org/10.1016/j.cognition.2018.08.014
+    - label: Preprint
+      url: https://doi.org/10.31234/osf.io/j7k6q
+
+- slug: evolang12-2018
+  year: 2018
+  type: proceedings
+  title: "Environmental and social factors motivate the emergence of systematic categories and signs"
+  authors: "**Nölle, J.**, Staib, M., Fusaroli, R., & Tylén, K."
+  venue: "In C. Cuskley et al. (eds.), *The Evolution of Language: Proceedings of the 12th International Conference (EVOLANG XII)*."
+  url: https://doi.org/10.12775/3991-1.084
+  links:
+    - label: DOI
+      url: https://doi.org/10.12775/3991-1.084
+
+- slug: overspecification-2017
+  year: 2017
+  type: article
+  title: "Usage context influences the evolution of overspecification in iterated learning"
+  authors: "Tinits, P., **Nölle, J.**, & Hartmann, S."
+  venue: "*Journal of Language Evolution*, 2(2), 148–159."
+  url: https://doi.org/10.1093/jole/lzx011
+  links:
+    - label: DOI
+      url: https://doi.org/10.1093/jole/lzx011
+  note: Equal contribution.
+
+- slug: evolang11-2016
+  year: 2016
+  type: proceedings
+  title: "Plain simple complex structures: The emergence of overspecification in an iterated learning setup"
+  authors: "Hartmann, S., Tinits, P., **Nölle, J.**, Hartmann, T., & Pleyer, M."
+  venue: "In S. G. Roberts et al. (eds.), *The Evolution of Language: Proceedings of the 11th International Conference (EVOLANG XI)*."
+  url: http://evolang.org/neworleans/papers/144.html
+  links:
+    - label: Paper
+      url: http://evolang.org/neworleans/papers/144.html
+
+- slug: continuum-2014
+  year: 2014
+  type: article
+  title: "A co-evolved continuum of language, culture and cognition: Prospects of interdisciplinary research"
+  authors: "**Nölle, J.**"
+  venue: "*Studies about Languages*, 25, 5–13."
+  url: https://doi.org/10.5755/j01.sal.0.25.8504
+  links:
+    - label: DOI
+      url: https://doi.org/10.5755/j01.sal.0.25.8504
+
+- slug: thesis-2021
+  year: 2021
+  type: thesis
+  title: "How language adapts to the environment: An evolutionary, experimental approach"
+  authors: "**Nölle, J.**"
+  venue: "PhD thesis, University of Edinburgh."
+  url: https://era.ed.ac.uk/handle/1842/38890
+  links:
+    - label: Edinburgh
+      url: https://era.ed.ac.uk/handle/1842/38890
+    - label: OSF
+      url: https://doi.org/10.31237/osf.io/bfuvr

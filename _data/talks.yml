@@ -1,0 +1,348 @@
+# Newest first within each type: invited, conference, poster.
+# Copy a block to add a talk. Keep the year as a number.
+
+# --- Invited -----------------------------------------------------------
+
+- year: 2024
+  type: invited
+  title: "The antonymic expression hypothesis: How facial expressions evolved into multifaceted components of multimodal language"
+  event: Centre for Language Evolution Studies, Nicolaus Copernicus University
+  place: Toruń, Poland
+
+- year: 2024
+  type: invited
+  title: "The roots of facial expressions: From biologically rooted facial movements to pragmatic and semantic signals"
+  event: Interacting Minds Centre, Aarhus University
+  place: Aarhus, Denmark
+
+- year: 2024
+  type: invited
+  title: "Facial expression pragmatics: How dynamic face movements influence speech perception"
+  event: DiscoMatiX Winter Session
+  place: Online
+
+- year: 2023
+  type: invited
+  title: "How facial expressions modulate speech in multimodal communication"
+  event: Division of Psychology and Language Sciences, University College London
+  place: London, UK
+
+- year: 2022
+  type: invited
+  title: "Pragmatic functions of facial expressions: A data-driven approach"
+  event: Psycholinguistics Coffee, School of Philosophy, Psychology and Language Sciences, University of Edinburgh
+  place: Edinburgh, UK
+
+- year: 2022
+  type: invited
+  title: "Growing language(s) in virtual realities: VR as a tool to study linguistic emergence and adaptation"
+  event: Language Evolution and Emergence Group, Max Planck Institute for Psycholinguistics
+  place: Nijmegen, Netherlands
+
+- year: 2021
+  type: invited
+  title: "How to grow a communication system in the lab: Experimental semiotics in the XR era"
+  event: University of Osnabrück
+  place: Osnabrück, Germany
+
+- year: 2021
+  type: invited
+  title: "Experimental semiotics: How to grow languages in the lab"
+  event: Typology and Evolution seminar, University at Buffalo
+  place: Buffalo, NY, USA
+
+- year: 2021
+  type: invited
+  label: Keynote
+  title: "Virtual reality: A new tool for studying human behaviour in the lab"
+  event: Baltic Summer School of Digital Humanities
+  place: Tallinn, Estonia
+
+- year: 2020
+  type: invited
+  title: "How spatial language adapts to the environment: An investigation using virtual reality"
+  event: Department of Linguistics, Cognitive Science and Semiotics, Aarhus University
+  place: Aarhus, Denmark
+
+- year: 2019
+  type: invited
+  title: "Why left/right rather than uphill/downhill? An experimental approach to the evolution of spatial referencing"
+  event: Centre for Language Evolution, University of Edinburgh
+  place: Edinburgh, UK
+
+- year: 2018
+  type: invited
+  title: "An experimental approach to the evolution of competing spatial referencing strategies"
+  event: Centre for Language Evolution, University of Edinburgh
+  place: Edinburgh, UK
+
+- year: 2017
+  type: invited
+  title: "Motivation of structure in the evolution of communication systems"
+  event: Cognitive Science and Communication Research Group, Northumbria University
+  place: Newcastle upon Tyne, UK
+
+- year: 2015
+  type: invited
+  title: "Environmental motivation of linguistic routines"
+  event: Interacting Minds Centre, Aarhus University
+  place: Aarhus, Denmark
+
+- year: 2015
+  type: invited
+  title: "Umweltfaktoren in der Evolution von semiotischen Systemen"
+  event: Department of General Linguistics, Technische Universität Berlin
+  place: Berlin, Germany
+
+- year: 2014
+  type: invited
+  title: "Evolution of conventions: Genes, culture and cognition"
+  event: Seminar in Ecological Semiotics, Center for Semiotics, Aarhus University
+  place: Aarhus, Denmark
+
+# --- Conference talks --------------------------------------------------
+
+- year: 2026
+  type: conference
+  title: "The pan-simian geocentric bias revisited: Novel spatial communication systems show a sagittal egocentric bias"
+  with: Simon Kirby, Jennifer Culbertson, and Kenny Smith
+  event: "16th International Conference on the Evolution of Language (EVOLANG XVI)"
+  place: Plovdiv, Bulgaria
+  url: https://evolang.org/2026/proceedings/paper.html?nr=88
+
+- year: 2026
+  type: conference
+  title: "Folk dance as an ancient semiotic system and cultural replicator"
+  with: Yuxi Yiang, Peeter Tinits, and Monica Tamariz
+  event: "16th International Conference on the Evolution of Language (EVOLANG XVI)"
+  place: Plovdiv, Bulgaria
+  url: https://evolang.org/2026/proceedings/paper.html?nr=90
+
+- year: 2026
+  type: conference
+  title: "A field-based framework to model multimodal value-governed exchange in human social interaction"
+  with: Chen Zhou and colleagues
+  event: "16th International Conference on the Evolution of Language (EVOLANG XVI)"
+  place: Plovdiv, Bulgaria
+  url: https://evolang.org/2026/proceedings/paper.html?nr=81
+
+- year: 2025
+  type: conference
+  title: "The antonymic expressions hypothesis: How face movements evolved into multimodal signals"
+  with: Yichen Wu, Pablo Arias, Chaona Chen, Oliver G. B. Garrod, Philippe G. Schyns, and Rachael E. Jack
+  event: "17th International Cognitive Linguistics Conference (ICLC)"
+  place: Buenos Aires, Argentina
+
+- year: 2024
+  type: conference
+  title: "The roots of facial expressions: Pragmatic and semantic facial expressions comprise biologically rooted facial movements"
+  with: Yichen Wu, Pablo Arias, Chaona Chen, Oliver G. B. Garrod, Philippe G. Schyns, and Rachael E. Jack
+  event: "15th International Conference on the Evolution of Language (EVOLANG XV)"
+  place: Madison, WI, USA
+
+- year: 2023
+  type: conference
+  title: "Multimodal markers of confidence and doubt: Inferring feeling of knowing from facial movements"
+  with: Yichen Wu, Pablo Arias, Oliver G. B. Garrod, Robin A. A. Ince, Philippe G. Schyns, and Rachael E. Jack
+  event: "16th International Cognitive Linguistics Conference (ICLC)"
+  place: Düsseldorf, Germany
+
+- year: 2022
+  type: conference
+  title: "Understanding multimodal communication using a data-driven information-theoretic framework"
+  with: Yichen Wu, Pablo Arias, Chaona Chen, Oliver G. B. Garrod, Robin A. A. Ince, Philippe G. Schyns, and Rachael E. Jack
+  event: Cognition, Behavior and Evolution Network (CBEN)
+  place: Leiden, Netherlands
+
+- year: 2022
+  type: conference
+  title: "More than affect: Iconic and pragmatic functions of human facial expressions"
+  with: Yichen Wu, Pablo Arias, Oliver G. B. Garrod, Philippe G. Schyns, and Rachael E. Jack
+  event: Joint Conference on Language Evolution (JCoLE)
+  place: Kanazawa, Japan
+
+- year: 2022
+  type: conference
+  title: "Discovering the pragmatic function of facial expressions using data-driven methods"
+  with: Yichen Wu, Pablo Arias, Oliver G. B. Garrod, Philippe G. Schyns, and Rachael E. Jack
+  event: International Society for Gesture Studies (ISGS)
+  place: Chicago, IL, USA
+
+- year: 2021
+  type: conference
+  title: "Understanding the semiotic affordances of human facial expressions using data-driven methods"
+  with: Oliver G. B. Garrod, Chaona Chen, M. Liu, Robin A. A. Ince, Philippe G. Schyns, and Rachael E. Jack
+  event: Protolang 7
+  place: Online / Düsseldorf
+
+- year: 2021
+  type: conference
+  title: "Facial emotion expressions contain iconic signals of sensory input"
+  with: Chaona Chen, L. B. Hensel, Oliver G. B. Garrod, Philippe G. Schyns, and Rachael E. Jack
+  event: Society for Affective Science
+  place: Online / Glasgow
+
+- year: 2020
+  type: conference
+  title: "Variation in spatial language: An experimental approach using virtual reality"
+  with: Jennifer Culbertson, Simon Kirby, and Kenny Smith
+  event: UK Cognitive Linguistics Conference
+  place: Online / Birmingham
+
+- year: 2019
+  type: conference
+  title: "Evolving language(s) in virtual reality"
+  with: Jennifer Culbertson, Simon Kirby, and Kenny Smith
+  event: Protolang 6
+  place: Lisbon, Portugal
+
+- year: 2019
+  type: conference
+  title: "Beyond iconicity: Aspects of metonymy and indexicality in sign grounding"
+  with: Riccardo Fusaroli and Kristian Tylén
+  event: "15th International Cognitive Linguistics Conference (ICLC)"
+  place: Nishinomiya, Japan
+
+- year: 2019
+  type: conference
+  title: "Using virtual reality to study language evolution"
+  with: Jennifer Culbertson, Simon Kirby, and Kenny Smith
+  event: "15th International Cognitive Linguistics Conference (ICLC)"
+  place: Nishinomiya, Japan
+
+- year: 2018
+  type: conference
+  title: "Combining models and experiments to study the evolution of competing spatial referencing strategies"
+  with: Michael Spranger
+  event: "7th International Conference on Spatial Cognition (ICSC)"
+  place: Rome, Italy
+
+- year: 2018
+  type: conference
+  title: "Environmental and social factors motivate the emergence of systematic categories and signs"
+  with: Marlene Staib, Riccardo Fusaroli, and Kristian Tylén
+  event: "12th International Conference on the Evolution of Language (EVOLANG XII)"
+  place: Toruń, Poland
+
+- year: 2017
+  type: conference
+  title: "Informational bottlenecks lead to co-evolution of categories and systematicity in an emergent communication system"
+  with: Marlene Staib, Riccardo Fusaroli, and Kristian Tylén
+  event: Protolang 5
+  place: Barcelona, Spain
+
+- year: 2017
+  type: conference
+  title: "Investigating pressures for the emergence of semiotic structure in situated social interaction"
+  with: Marlene Staib, Riccardo Fusaroli, and Kristian Tylén
+  event: "14th International Cognitive Linguistics Conference (ICLC)"
+  place: Tartu, Estonia
+
+- year: 2017
+  type: conference
+  title: "Systematicity in a highly iconic world: What determines which categories emerge in a novel communication system?"
+  with: Marlene Staib, Riccardo Fusaroli, and Kristian Tylén
+  event: "11th International Symposium on Iconicity in Language and Literature"
+  place: Brighton, UK
+
+- year: 2016
+  type: conference
+  title: "Variation in spatial language as a form of adaptation: An evolutionary, experimental approach"
+  event: "Universals and Variation in Spatial Referencing, specialist meeting, UCSB Center for Spatial Studies"
+  place: Santa Barbara, CA, USA
+
+- year: 2016
+  type: conference
+  title: "Investigating motivations for iconicity and systematicity in emergent sign systems"
+  with: Marlene Staib, Riccardo Fusaroli, and Kristian Tylén
+  event: "2nd Conference of the International Association for Cognitive Semiotics (IACS)"
+  place: Lublin, Poland
+
+- year: 2016
+  type: conference
+  title: "How contextual pressures shape grammar: The emergence of overspecification in an iterated learning setup"
+  with: Peeter Tinits, Michael Pleyer, and Stefan Hartmann
+  event: "6th UK Cognitive Linguistics Conference"
+  place: Bangor, UK
+
+- year: 2016
+  type: conference
+  title: "Linguistic routines in joint problem-solving respond to environmental factors"
+  event: "Geographic grounding: Place, direction and landscape in the grammars of the world (GeoGram)"
+  place: Copenhagen, Denmark
+
+- year: 2016
+  type: conference
+  title: "Plain simple complex structures: The emergence of overspecification in an iterated learning setup"
+  with: Peeter Tinits, Stefan Hartmann, T. Hartmann, and Michael Pleyer
+  event: "11th International Conference on the Evolution of Language (EVOLANG XI)"
+  place: New Orleans, LA, USA
+
+- year: 2015
+  type: conference
+  title: "Environmental affordances shape linguistic coordination in the maze game"
+  with: Gregory J. Mills and Kristian Tylén
+  event: Protolang 4
+  place: Rome, Italy
+
+- year: 2015
+  type: conference
+  title: "Communicative relevance and morphological complexity: An iterated learning approach"
+  with: Stefan Hartmann, Michael Pleyer, and Peeter Tinits
+  event: Protolang 4
+  place: Rome, Italy
+
+- year: 2015
+  type: conference
+  title: "Experimental approaches to the emergence of morphological complexity"
+  with: Peeter Tinits, Michael Pleyer, and Stefan Hartmann
+  event: "48th Annual Meeting of the Societas Linguistica Europaea"
+  place: Leiden, Netherlands
+
+- year: 2015
+  type: conference
+  title: "People make things messier: How communicative pressures shape linguistic complexity"
+  with: Peeter Tinits, Michael Pleyer, and Stefan Hartmann
+  event: "13th International Cognitive Linguistics Conference (ICLC)"
+  place: Newcastle, UK
+
+- year: 2015
+  type: conference
+  title: "Assessing the role of the environment in emerging cultural communication systems"
+  event: "13th International Cognitive Linguistics Conference (ICLC)"
+  place: Newcastle, UK
+
+- year: 2014
+  type: conference
+  title: "Integrating cultural, socio-ecological and cognitive factors in theories of language evolution"
+  event: "1st Conference of the International Association for Cognitive Semiotics (IACS)"
+  place: Lund, Sweden
+
+- year: 2014
+  type: conference
+  title: "A co-evolved continuum of language, culture and cognition: Prospects of interdisciplinary research"
+  event: "1st International Congress in Numanities (ICoN)"
+  place: Kaunas, Lithuania
+
+# --- Posters -----------------------------------------------------------
+
+- year: 2024
+  type: poster
+  title: "Multimodal feeling of knowing: Facial movements influence the perception of speaker confidence"
+  with: Yichen Wu, Pablo Arias Sarah, Oliver G. B. Garrod, Philippe G. Schyns, and Rachael E. Jack
+  event: Society for Affective Science
+  place: New Orleans, LA, USA
+
+- year: 2021
+  type: poster
+  title: "Facial expressions of emotion include iconic signals of rejection and acceptance"
+  with: Chaona Chen, L. B. Hensel, Oliver G. B. Garrod, Philippe G. Schyns, and Rachael E. Jack
+  event: Vision Sciences Society
+  place: Online
+
+- year: 2020
+  type: poster
+  title: "Silent gesture and artificial sign languages: Studying the building blocks of language in the lab"
+  with: Y. Motamedi and Marieke Schouwstra
+  event: International Virtual Conference in Sign Language Processing
+  place: Online

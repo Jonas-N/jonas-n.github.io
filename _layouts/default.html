@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% assign is_home = false %}
+  {% if page.url == "/" or page.url == "/index.html" %}{% assign is_home = true %}{% endif %}
+  <title>{% if is_home %}{{ site.title }}{% else %}{{ page.title }} · {{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description | strip_newlines }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <meta name="author" content="{{ site.author.name }}">
+  <meta name="theme-color" content="#1e4d45">
+  <meta property="og:title" content="{% if is_home %}{{ site.title }}{% else %}{{ page.title }} · {{ site.title }}{% endif %}">
+  <meta property="og:description" content="{{ page.description | default: site.description | strip_newlines }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="{% if is_home %}profile{% else %}website{% endif %}">
+  <meta property="og:image" content="{{ '/assets/img/jonas.jpg' | absolute_url }}">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,550;0,6..72,650;1,6..72,400&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  {% if is_home %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "{{ site.author.name }}",
+    "givenName": "{{ site.author.given }}",
+    "familyName": "{{ site.author.family }}",
+    "honorificPrefix": "Dr",
+    "jobTitle": "{{ site.author.job_title }}",
+    "email": "{{ site.author.email }}",
+    "url": "{{ site.url }}",
+    "image": "{{ '/assets/img/jonas.jpg' | absolute_url }}",
+    "affiliation": [
+      {
+        "@type": "Organization",
+        "name": "{{ site.affiliation.org }}, {{ site.affiliation.university }}",
+        "url": "{{ site.affiliation.url }}"
+      },
+      {
+        "@type": "Organization",
+        "name": "{{ site.glasgow.org }}, {{ site.glasgow.university }}",
+        "url": "{{ site.glasgow.url }}"
+      }
+    ],
+    "sameAs": [
+      "{{ site.links.orcid }}",
+      "{{ site.links.scholar }}",
+      "{{ site.links.github }}",
+      "{{ site.links.mastodon }}",
+      "{{ site.links.x }}"
+    ]
+  }
+  </script>
+  {% endif %}
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="{{ '/' | relative_url }}" {% if is_home %}aria-current="page"{% endif %}>Home</a>
+        <a href="{{ '/research/' | relative_url }}" {% if page.url contains '/research/' %}aria-current="page"{% endif %}>Research</a>
+        <a href="{{ '/publications/' | relative_url }}" {% if page.url contains '/publications/' %}aria-current="page"{% endif %}>Publications</a>
+        <a href="{{ '/talks/' | relative_url }}" {% if page.url contains '/talks/' %}aria-current="page"{% endif %}>Talks</a>
+        <a href="{{ '/cv/' | relative_url }}" {% if page.url contains '/cv/' %}aria-current="page"{% endif %}>CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap" id="content">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p><strong>{{ site.author.name }}</strong> · {{ site.affiliation.org }}, {{ site.affiliation.university }}</p>
+      <p>{{ site.affiliation.street }}, {{ site.affiliation.city }}</p>
+      <p class="footer-links">
+        <a href="{{ site.links.email }}">{{ site.author.email }}</a>
+        <span aria-hidden="true">·</span>
+        <a rel="me" href="{{ site.links.orcid }}">ORCID</a>
+        <span aria-hidden="true">·</span>
+        <a rel="me" href="{{ site.links.scholar }}">Google Scholar</a>
+        <span aria-hidden="true">·</span>
+        <a rel="me" href="{{ site.links.mastodon }}">Mastodon</a>
+      </p>
+      <p class="footer-meta">Updated {{ site.updated }}</p>
+    </div>
+  </footer>
+</body>
+</html>
