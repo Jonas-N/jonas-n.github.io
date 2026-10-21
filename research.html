@@ -1,0 +1,119 @@
+---
+layout: default
+title: Research
+description: Research by Jonas Nölle on facial signals in multimodal communication, virtual reality as a laboratory for interaction, and the emergence of communicative conventions.
+---
+{%- assign faces = site.data.strands | where: "id", "faces" | first -%}
+{%- assign vr = site.data.strands | where: "id", "vr" | first -%}
+{%- assign em = site.data.strands | where: "id", "emergence" | first -%}
+<header class="page-head wrap">
+  <h1>Research</h1>
+  <p class="page-lede">
+    Why do communication systems take the shape they do? I look for causal answers: what changes in the environment, the interaction or the body, and what then changes in the signal.
+    I approach this from three directions that increasingly meet.
+  </p>
+</header>
+
+<div class="wrap doc">
+  <nav class="toc" aria-label="On this page">
+    <ol>
+      <li><a href="#faces">{{ faces.title }}</a></li>
+      <li><a href="#vr">{{ vr.title }}</a></li>
+      <li><a href="#emergence">{{ em.title }}</a></li>
+      <li><a href="#methods">Methods and tools</a></li>
+    </ol>
+  </nav>
+
+  <div class="doc-body">
+    <section class="doc-section" id="faces">
+      <h2><svg viewBox="0 0 48 48" aria-hidden="true">{{ faces.glyph }}</svg>{{ faces.title }}</h2>
+      <p>
+        Faces are usually studied as displays of emotion. In face-to-face conversation they do much more: they mark questions and doubt, signal acceptance or rejection, and change how the words they accompany are understood.
+        From 2020 to 2024 I worked on the ERC project FACESYNTAX with Rachael Jack, Philippe Schyns and colleagues at the University of Glasgow, which treats facial movement as a structured communicative signal.
+      </p>
+      <p>
+        We use a generative model of 3D facial behaviour and reverse correlation: listeners judge many randomly animated faces, and their responses reveal which movements drive a given inference.
+        Holding speech constant, specific upper-face movements shift whether a speaker comes across as confident or doubtful, and these mappings are largely shared by British English and Mandarin Chinese listeners.
+        Other work identifies an expansion–contraction dimension of facial movement that signals acceptance versus rejection, and traces pragmatic and semantic facial signals back to biologically rooted expressions.
+      </p>
+      <p>
+        At the Centre for Language Evolution Studies in Toruń, Chen Zhou, Przemysław Żywiczyński and I have proposed a field-based framework for modelling how multimodal signals take part in value-governed exchange in social interaction.
+      </p>
+      <div class="keyrefs">
+        <p>Key papers</p>
+        <ul>
+          <li>Nölle et al. (2026). Dynamic facial movements shape how confident speakers appear. <cite>Proceedings of the Royal Society B</cite>, 293, 20262044. <a href="https://royalsocietypublishing.org/rspb/article/293/2081/20262044/483770/Dynamic-facial-movements-shape-how-confident">Article</a></li>
+          <li>Zhou, Żywiczyński &amp; Nölle (2026). A field-based framework to model multimodal value-governed exchange in human social interaction. EVOLANG XVI. <a href="https://evolang.org/2026/proceedings/paper.html?nr=81">Paper</a></li>
+          <li>Nölle et al. (2024). The roots of facial expressions. EVOLANG XV. <a href="https://evolangconf.github.io/2024/proceedings/paper.html?nr=128">Paper</a></li>
+          <li>Nölle et al. (2021). Facial expressions of emotion include iconic signals of rejection and acceptance. <cite>Journal of Vision</cite>. <a href="https://doi.org/10.1167/jov.21.9.2932">DOI</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="doc-section" id="vr">
+      <h2><svg viewBox="0 0 48 48" aria-hidden="true">{{ vr.glyph }}</svg>{{ vr.title }}</h2>
+      <p>
+        Experiments on communication face a trade-off: tight control usually means stripping away the live, embodied interaction that communication depends on.
+        Immersive virtual reality removes much of that trade-off. It lets me repeat a manipulation exactly while people move, point, look and talk freely in a shared space.
+      </p>
+      <p>
+        My PhD at the Centre for Language Evolution in Edinburgh, supervised by Kenny Smith, Simon Kirby and Jennifer Culbertson, was among the first in the language sciences to use networked, multi-participant VR.
+        I built communication games in Unity in which two people share the same virtual environment, and manipulated that environment to test whether the physical world causally shapes spatial language.
+        The code for the paradigm is on <a href="https://github.com/Jonas-N/OrbHuntSetup">GitHub</a>.
+      </p>
+      <p>
+        With Kristian Tylén, Riccardo Fusaroli and colleagues in Aarhus, I contributed to a VR cultural-transmission study that followed six simulated generations and found that city layout shapes spatial language, sketch maps and navigation success.
+        I have also written practical guides to VR for language evolution and for language and cognition research, with David Peeters, and run hands-on VR workshops in Glasgow and Toruń.
+      </p>
+      <div class="keyrefs">
+        <p>Key papers</p>
+        <ul>
+          <li>Alinam, Fusaroli, Nölle, Vesper &amp; Tylén (2026). When the city speaks. <cite>Open Mind</cite>, 10, 1310–1337. <a href="https://doi.org/10.1162/OPMI.a.380">DOI</a></li>
+          <li>Nölle &amp; Peeters (2025). Virtual reality as a tool to study language evolution. <cite>Oxford Handbook of Approaches to Language Evolution</cite>. <a href="https://doi.org/10.1093/oxfordhb/9780192886491.013.5">DOI</a></li>
+          <li>Nölle, Titus, Zhou &amp; Peeters (forthcoming). Investigating language and cognition in virtual reality. <a href="https://doi.org/10.31234/osf.io/s2xdp_v1">Preprint</a></li>
+          <li>Nölle (2021). How language adapts to the environment. PhD thesis, University of Edinburgh. <a href="https://era.ed.ac.uk/handle/1842/38890">Thesis</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="doc-section" id="emergence">
+      <h2><svg viewBox="0 0 48 48" aria-hidden="true">{{ em.glyph }}</svg>{{ em.title }}</h2>
+      <p>
+        This has been my focus from the start, first as a student assistant to Kristian Tylén and Riccardo Fusaroli in Aarhus and then on a seed-funded project with them.
+        When pairs of people have to communicate without a shared language, using silent gesture for example, they quickly invent conventions.
+        Whether those conventions become systematic depends jointly on the structure of the things people need to talk about and on the pressures of the interaction itself.
+      </p>
+      <p>
+        The same logic applies to spatial language. In a collaborative maze task, pairs settled on different ways of describing locations depending on the layout they shared.
+        With Michael Spranger I argued for combining cross-linguistic observation, laboratory interventions and computational models to move from correlation to cause in explaining why languages differ in how they talk about space.
+        With Stefan Hartmann, Peeter Tinits and others I have also used iterated learning to study how usage context shapes grammatical complexity.
+      </p>
+      <p>
+        In Toruń, with Przemysław Żywiczyński and colleagues, I use motion capture to study how bodies shape new communication systems.
+        How people are physically arranged relative to one another acts as a micro-ecological constraint on the pantomime and gesture systems they develop.
+      </p>
+      <div class="keyrefs">
+        <p>Key papers</p>
+        <ul>
+          <li>Placiński, Nölle, Sibierska, Kiljanek, Karkowska &amp; Żywiczyński (2027). Postural configurations as micro-ecological constraints. <cite>Cognition</cite>, 278, 106736. <a href="https://doi.org/10.1016/j.cognition.2026.106736">DOI</a></li>
+          <li>Nölle, Staib, Fusaroli &amp; Tylén (2018). The emergence of systematicity. <cite>Cognition</cite>, 181, 93–104. <a href="https://doi.org/10.1016/j.cognition.2018.08.014">DOI</a></li>
+          <li>Nölle, Fusaroli, Mills &amp; Tylén (2020). Language as shaped by the environment. <cite>Palgrave Communications</cite>, 6, 27. <a href="https://doi.org/10.1057/s41599-020-0404-9">DOI</a></li>
+          <li>Nölle &amp; Spranger (2022). From the field into the lab. <cite>Linguistics Vanguard</cite>, 8(s1), 191–203. <a href="https://doi.org/10.1515/lingvan-2020-0007">DOI</a></li>
+          <li>Nölle &amp; Galantucci (2022). Experimental semiotics: Past, present, and future. <cite>Routledge Handbook of Semiosis and the Brain</cite>. <a href="https://doi.org/10.4324/9781003051817-6">DOI</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="doc-section" id="methods">
+      <h2>Methods and tools</h2>
+      <ul class="methods">
+        <li><strong>Interaction experiments</strong>Dyadic communication games and experimental semiotics, from silent gesture to spoken dialogue.</li>
+        <li><strong>Virtual and extended reality</strong>Networked, multi-user VR built in Unity (C#) and Unreal.</li>
+        <li><strong>Facial animation and psychophysics</strong>Generative 3D facial animation, reverse correlation and 3D face capture.</li>
+        <li><strong>Multimodal annotation</strong>Speech, gesture and face coding in ELAN and Praat.</li>
+        <li><strong>Statistics and modelling</strong>Statistical modelling and simulation in R, Python and MATLAB.</li>
+        <li><strong>Open science</strong>Shared code and materials, and workshops on reproducibility and transparency.</li>
+      </ul>
+    </section>
+  </div>
+</div>

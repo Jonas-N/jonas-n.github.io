@@ -1,0 +1,11 @@
+# Display labels for publication and talk types.
+article: Journal article
+chapter: Book chapter
+proceedings: Conference paper
+preprint: Preprint
+thesis: Thesis
+edited: Edited volume
+abstract: Published abstract
+invited: Invited talk
+conference: Conference talk
+poster: Poster

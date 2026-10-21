@@ -1,0 +1,146 @@
+---
+layout: default
+title: CV
+description: Academic CV of Jonas Nölle, with positions, education, editorial work, supervision, teaching, service and awards.
+---
+<header class="page-head wrap">
+  <h1>Curriculum vitae</h1>
+  <p class="page-lede">
+    A short academic CV. Full lists are on the <a href="{{ '/publications/' | relative_url }}">publications</a> and <a href="{{ '/talks/' | relative_url }}">talks</a> pages.
+    For a PDF copy, email <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.
+  </p>
+</header>
+
+<div class="wrap cv">
+  <section class="cv-section" aria-labelledby="bio-h">
+    <h2 id="bio-h">Short bio</h2>
+    <div class="cv-body">
+      <figure class="bio">
+        <p id="bio-text">
+          Jonas Nölle is a postdoctoral researcher at the Centre for Language Evolution Studies, Nicolaus Copernicus University in Toruń, and an affiliate researcher at the School of Psychology and Neuroscience, University of Glasgow.
+          He studies how communicative signals are shaped by the pressures under which people use them, combining interactive experiments, multi-user virtual reality and data-driven models of dynamic facial expressions.
+          He holds a PhD from the Centre for Language Evolution at the University of Edinburgh and an MA in Cognitive Semiotics from Aarhus University, and was a postdoctoral researcher on the ERC project FACESYNTAX in Glasgow.
+          He is a General Editor of <cite>Language and Cognition</cite>, a Handling Editor of <cite>Cognitive Processing</cite> and a co-founder of MOSAIC, the Multimodal Social Interactions Group.
+        </p>
+        <button type="button" class="copy" data-copy="bio-text" hidden>Copy bio</button>
+      </figure>
+    </div>
+  </section>
+
+  <section class="cv-section" aria-labelledby="pos-h">
+    <h2 id="pos-h">Positions</h2>
+    <ol class="cv-rows">
+      {% for job in site.data.positions %}
+      <li>
+        <div class="cv-when">{{ job.start }} – {{ job.end }}</div>
+        <div>
+          <p class="cv-what"><strong>{{ job.role }}</strong>, {% if job.url %}<a href="{{ job.url }}">{{ job.org }}</a>{% else %}{{ job.org }}{% endif %}{% if job.place %}, {{ job.place }}{% endif %}</p>
+          {% if job.note %}<p class="cv-detail">{{ job.note }}</p>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <section class="cv-section" aria-labelledby="edu-h">
+    <h2 id="edu-h">Education</h2>
+    <ol class="cv-rows">
+      {% for item in site.data.education %}
+      <li>
+        <div class="cv-when">{{ item.years }}</div>
+        <div>
+          <p class="cv-what"><strong>{{ item.degree }}, {{ item.field }}</strong>, {{ item.org }}{% if item.unit %}, {{ item.unit }}{% endif %}</p>
+          {% if item.thesis %}<p class="cv-detail">Thesis: {% if item.thesis_url %}<a href="{{ item.thesis_url }}">{{ item.thesis }}</a>{% else %}<cite>{{ item.thesis }}</cite>{% endif %}</p>{% endif %}
+          {% if item.note %}<p class="cv-detail">{{ item.note }}</p>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <section class="cv-section" aria-labelledby="ed-h">
+    <h2 id="ed-h">Editorial work</h2>
+    <ol class="cv-rows">
+      <li><div class="cv-when">2024 –</div><div><p class="cv-what"><strong>General Editor</strong>, <a href="{{ site.links.journal }}"><cite>Language and Cognition</cite></a>, Cambridge University Press</p></div></li>
+      <li><div class="cv-when">2023 –</div><div><p class="cv-what"><strong>Handling Editor</strong> (psycholinguistics), <a href="{{ site.links.cogproc }}"><cite>Cognitive Processing</cite></a>, Springer</p></div></li>
+      <li><div class="cv-when">2026</div><div><p class="cv-what"><strong>Co-editor</strong>, <cite>Proceedings of the 16th International Conference on the Evolution of Language</cite> (EVOLANG XVI, Plovdiv)</p></div></li>
+      <li><div class="cv-when">2024</div><div><p class="cv-what"><strong>Chair of the scientific committee</strong> and co-editor of the proceedings, EVOLANG XV (Madison, WI)</p></div></li>
+      <li><div class="cv-when">2020</div><div><p class="cv-what"><strong>Guest editor</strong>, <cite>Language Dynamics and Change</cite> 10(1–2), two special issues on new directions in language evolution research, with Stefan Hartmann and Peeter Tinits</p></div></li>
+    </ol>
+  </section>
+
+  <section class="cv-section" aria-labelledby="sup-h">
+    <h2 id="sup-h">Supervision</h2>
+    <div class="cv-body">
+      <ol class="cv-rows">
+        <li><div class="cv-when">2026</div><div><p class="cv-what"><strong>Yichen Wu</strong>, PhD in Psychology, University of Glasgow, co-supervised with Rachael Jack. Defended September 2026.</p><p class="cv-detail">Also his MRes in Psychology (2022).</p></div></li>
+        <li><div class="cv-when">2023–2024</div><div><p class="cv-what">MSc theses at the University of Glasgow, with Rachael Jack: Haoyue Wang (Psychological Science, 2024) and Yueyao Yang (Research Methods of Psychological Science).</p></div></li>
+        <li><div class="cv-when">2017–2020</div><div><p class="cv-what">MSc theses in Evolution of Language and Cognition at the University of Edinburgh: Rayn Epremian (with Matthew Spike), Isabell Seeger (2018, with Simon Kirby), Giorgia Lano (2018, with Marieke Schouwstra) and Tian Li (2017, with Jennifer Culbertson).</p></div></li>
+      </ol>
+      <p>I have also supervised 16 student research assistants in Aarhus, Edinburgh, Glasgow and Toruń, working on virtual reality, 3D face capture, multimodal psychophysics and dyadic interaction experiments.</p>
+    </div>
+  </section>
+
+  <section class="cv-section" aria-labelledby="teach-h">
+    <h2 id="teach-h">Teaching</h2>
+    <div class="cv-body">
+      <ul class="cv-list">
+        <li>Guest lectures at Aarhus University (2014), the University at Buffalo (2021), the University of Glasgow (2023) and the University of Edinburgh (2025, 2026).</li>
+        <li>Keynote on virtual reality at the Baltic Summer School of Digital Humanities, Tallinn (2021).</li>
+        <li>Tutor, University of Edinburgh (2016–2019): Introduction to Linguistics and English Language; Origins and Evolution of Language; Introduction to Language Research; Introduction to Cognitive Science.</li>
+        <li>Tutor, Technische Universität Berlin (2011–2013): Introduction to Computational Linguistics; Text Linguistics; Linguistics in Occupation.</li>
+        <li>Writing tutor at the PPLS Writing Centre, Edinburgh, with more than 90 one-to-one sessions on scientific writing.</li>
+        <li>Methods workshops on virtual reality for behavioural research (Glasgow, 2022; Toruń, 2024), open science and reproducibility (Edinburgh, 2019, 2021) and LaTeX (2020).</li>
+        <li>Edinburgh Teaching Award (2020). Associate Fellow of the Higher Education Academy (AFHEA), since 2020.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="cv-section" aria-labelledby="svc-h">
+    <h2 id="svc-h">Service and organisation</h2>
+    <div class="cv-body">
+      <ul class="cv-list">
+        <li>Co-founder and co-organiser of <a href="{{ site.links.mosaic }}">MOSAIC</a>, the Multimodal Social Interactions Group, a global research initiative based in Glasgow, since 2021. I built and maintain its website.</li>
+        <li>Co-organiser of the International Society for Gesture Studies conference (ISGS 2025, Nijmegen) and of the ECR Gesture Workshop (online, 2021).</li>
+        <li>Workshop convenor at ICLC-15 (Nishinomiya, 2019), the International Conference on Spatial Cognition (Rome, 2018) and the 51st Annual Meeting of the Societas Linguistica Europaea (Tallinn, 2018).</li>
+        <li>Session chair at EVOLANG (2026), ICLC (2024) and Protolang (2017, 2019, 2021).</li>
+        <li>Co-organiser of the Student Symposium talk series at the Center for Semiotics, Aarhus University (2013–2015).</li>
+      </ul>
+      <p><strong>Peer review.</strong> Journals including <cite>Cognition</cite>, <cite>Journal of Experimental Psychology: General</cite>, <cite>Philosophical Transactions of the Royal Society B</cite>, <cite>Psychonomic Bulletin &amp; Review</cite>, <cite>Journal of the Acoustical Society of America</cite>, <cite>Topics in Cognitive Science</cite>, <cite>Humanities and Social Sciences Communications</cite>, <cite>Journal of Language Evolution</cite>, <cite>Linguistics Vanguard</cite> and <cite>PLOS ONE</cite>.
+        Programme committees of CogSci (2015–2026), EVOLANG (2018–2026), Intelligent Virtual Agents (2020, 2021, 2025) and Protolang (2025). Grant review for the National Science Centre Poland (OPUS).</p>
+    </div>
+  </section>
+
+  <section class="cv-section" aria-labelledby="aw-h">
+    <h2 id="aw-h">Awards and funding</h2>
+    <div class="cv-body">
+      <ul class="cv-list">
+        <li>Doctoral fellowship of the German National Academic Foundation (Studienstiftung des deutschen Volkes), 2016–2019, following its undergraduate (2012) and study-abroad (2013–2015) scholarships.</li>
+        <li>Principal’s Career Development PhD Scholarship, University of Edinburgh (full tuition and stipend, 2016–2019).</li>
+        <li>Co-author of the funded seed-fund project <cite>Contextual Factors Shaping the Emergence of Communication Systems</cite>, Interacting Minds Centre, Aarhus (2016).</li>
+        <li>Invited participant, selected by position paper, at the UCSB Center for Spatial Studies specialist meeting on universals and variation in spatial referencing (Santa Barbara, 2016), with travel grant.</li>
+        <li>Wiley-Blackwell prize for best presentation (2013) and audience award for best presentation (2014) at the Students’ Conference in Linguistics (StuTS).</li>
+        <li>18 travel and research-support grants (2014–2020), including from the International Cognitive Linguistics Association and the Max Planck Society.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="cv-section" aria-labelledby="pub-h">
+    <h2 id="pub-h">Public engagement</h2>
+    <div class="cv-body">
+      <ul class="cv-list">
+        <li><cite>Creating Communication</cite>, exhibition at the Edinburgh International Science Festival (2018).</li>
+        <li><cite>Language evolves!</cite>, interactive language-evolution activities in Edinburgh primary schools (2019).</li>
+        <li>Popular-science article on spatial cognition, “Woran merkt man, dass man in die falsche Richtung geht?”, <cite>ZEIT WISSEN</cite> 06/2016.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="cv-section" aria-labelledby="sk-h">
+    <h2 id="sk-h">Skills and languages</h2>
+    <div class="cv-body">
+      <p><strong>Methods.</strong> Dyadic interaction experiments and experimental semiotics; multi-user VR/XR (Unity, Unreal); 3D dynamic facial animation and social psychophysics; multimodal annotation (ELAN, Praat); statistics and modelling in R, Python and MATLAB.</p>
+      <p><strong>Languages.</strong> German (native), English (C2); basic Danish, Dutch, Mandarin, Spanish and Korean; Latinum.</p>
+    </div>
+  </section>
+</div>

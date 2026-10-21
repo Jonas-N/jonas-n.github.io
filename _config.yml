@@ -1,14 +1,16 @@
 # Personal academic homepage.
 # Edit the values here rather than hard-coding them in pages or layouts.
-# Publications, talks, positions, and education live in _data/.
+# Publications, talks, news, positions, and education live in _data/.
 
 title: "Jonas Nölle"
-tagline: "Experimental cognitive scientist"
+tagline: "Language evolution, multimodal communication and virtual reality"
 description: >-
-  Jonas Nölle is a postdoctoral researcher at the Centre for Language Evolution
-  Studies, Nicolaus Copernicus University in Toruń, and an affiliate at the
-  University of Glasgow. He studies language evolution, multimodal interaction,
-  and virtual reality.
+  Jonas Nölle is a cognitive scientist at the Centre for Language Evolution
+  Studies, Nicolaus Copernicus University in Toruń, and an affiliate researcher
+  at the University of Glasgow. He studies how communicative signals (words,
+  gestures and facial movements) adapt to the people and environments they are
+  used in, using interactive experiments, virtual reality and data-driven
+  models of facial behaviour.
 updated: "October 2026"
 
 # User site: https://jonas-n.github.io (repository jonas-n.github.io).
@@ -33,22 +35,60 @@ affiliation:
   city: "87-100 Toruń, Poland"
 
 glasgow:
-  role: "Affiliate"
+  role: "Affiliate Researcher"
   org: "School of Psychology and Neuroscience"
   university: "University of Glasgow"
   url: "https://www.gla.ac.uk/schools/psychologyneuroscience/staff/jonasn/"
+
+# Primary navigation. The site name in the header links home.
+nav:
+  - title: Research
+    url: /research/
+  - title: Publications
+    url: /publications/
+  - title: Talks
+    url: /talks/
+  - title: CV
+    url: /cv/
+
+# Profiles shown on the home page and in the footer. me: true adds rel="me".
+profiles:
+  - name: Google Scholar
+    url: "https://scholar.google.com/citations?user=iISC70gAAAAJ&hl=en"
+    me: true
+  - name: ORCID
+    url: "https://orcid.org/0000-0003-3546-2689"
+    me: true
+  - name: GitHub
+    url: "https://github.com/Jonas-N"
+    me: true
+  - name: OSF
+    url: "https://osf.io/q9uea/"
+  - name: Mastodon
+    url: "https://fediscience.org/@jn"
+    me: true
+  - name: X
+    url: "https://x.com/jonasnoelle"
+    me: true
 
 links:
   email: "mailto:jonas.noelle@glasgow.ac.uk"
   orcid: "https://orcid.org/0000-0003-3546-2689"
   scholar: "https://scholar.google.com/citations?user=iISC70gAAAAJ&hl=en"
   github: "https://github.com/Jonas-N"
-  mastodon: "https://fediscience.org/@jn"
-  x: "https://x.com/jonasnoelle"
   mosaic: "https://mosaicseminar.uk"
   cles: "https://cles.umk.pl/"
   glasgow: "https://www.gla.ac.uk/schools/psychologyneuroscience/staff/jonasn/"
-  journal: "https://www.cambridge.org/core/journals/language-and-cognition/"
+  journal: "https://www.cambridge.org/core/journals/language-and-cognition"
+  cogproc: "https://link.springer.com/journal/10339"
+  evolang: "https://evolang.org/"
+  # Used for <link rel="me"> and the schema.org sameAs list.
+  rel_me:
+    - "https://orcid.org/0000-0003-3546-2689"
+    - "https://scholar.google.com/citations?user=iISC70gAAAAJ&hl=en"
+    - "https://github.com/Jonas-N"
+    - "https://fediscience.org/@jn"
+    - "https://x.com/jonasnoelle"
 
 markdown: kramdown
 permalink: pretty

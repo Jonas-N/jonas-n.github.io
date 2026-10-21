@@ -1,24 +1,16 @@
-<article class="pub" id="{{ include.pub.slug }}">
-  <div class="pub-year">{{ include.pub.year }}</div>
-  <h3 class="pub-title">
-    {% if include.pub.url %}
-      <a href="{{ include.pub.url }}">{{ include.pub.title }}</a>
-    {% else %}
-      {{ include.pub.title }}
-    {% endif %}
-  </h3>
-  <p class="pub-authors">{{ include.pub.authors | markdownify | replace: '<p>', '' | replace: '</p>', '' | strip_newlines }}</p>
-  {% if include.pub.venue %}
-  <p class="pub-venue">{{ include.pub.venue | markdownify | replace: '<p>', '' | replace: '</p>', '' | strip_newlines }}</p>
-  {% endif %}
-  {% if include.pub.links %}
-  <p class="pub-links">
-    {% for link in include.pub.links %}
-      <a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %}<span aria-hidden="true"> · </span>{% endunless %}
-    {% endfor %}
-  </p>
-  {% endif %}
-  {% if include.pub.note %}
-  <p class="pub-note">{{ include.pub.note }}</p>
-  {% endif %}
+{%- assign p = include.pub -%}
+{%- assign tl = site.data.types[p.type] | default: p.type -%}
+<article class="pub{% if include.hide_year %} pub--noyear{% endif %}" id="{{ p.slug }}" data-type="{{ p.type }}">
+  {%- unless include.hide_year %}<p class="pub-year">{{ p.year }}</p>{% endunless %}
+  <div class="pub-body">
+    <h3 class="pub-title">{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
+    <p class="pub-authors">{{ p.authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+    {% if p.venue %}<p class="pub-venue">{{ p.venue | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>{% endif %}
+    <p class="pub-foot">
+      <span class="pub-type">{{ tl }}</span>
+      {%- if p.status %}<span class="pub-status">{{ p.status }}</span>{% endif -%}
+      {%- for link in p.links %}<a class="pub-link" href="{{ link.url }}">{{ link.label }}</a>{% endfor -%}
+    </p>
+    {% if p.note %}<p class="pub-note">{{ p.note }}</p>{% endif %}
+  </div>
 </article>

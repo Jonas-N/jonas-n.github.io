@@ -2,6 +2,12 @@
 # Copy a block to add a talk. Keep the year as a number.
 
 # --- Invited -----------------------------------------------------------
+# title is optional; without one the event name is used as the heading.
+
+- year: 2026
+  type: invited
+  event: Max Planck Institute for Evolutionary Anthropology
+  place: Leipzig, Germany
 
 - year: 2024
   type: invited
@@ -12,7 +18,7 @@
 - year: 2024
   type: invited
   title: "The roots of facial expressions: From biologically rooted facial movements to pragmatic and semantic signals"
-  event: Interacting Minds Centre, Aarhus University
+  event: Interacting Minds Centre seminar, Aarhus University
   place: Aarhus, Denmark
 
 - year: 2024
@@ -113,7 +119,7 @@
 - year: 2026
   type: conference
   title: "Folk dance as an ancient semiotic system and cultural replicator"
-  with: Yuxi Yiang, Peeter Tinits, and Monica Tamariz
+  with: Yuxi Jiang, Peeter Tinits, and Monica Tamariz
   event: "16th International Conference on the Evolution of Language (EVOLANG XVI)"
   place: Plovdiv, Bulgaria
   url: https://evolang.org/2026/proceedings/paper.html?nr=90
@@ -121,7 +127,7 @@
 - year: 2026
   type: conference
   title: "A field-based framework to model multimodal value-governed exchange in human social interaction"
-  with: Chen Zhou and colleagues
+  with: Chen Zhou and Przemysław Żywiczyński
   event: "16th International Conference on the Evolution of Language (EVOLANG XVI)"
   place: Plovdiv, Bulgaria
   url: https://evolang.org/2026/proceedings/paper.html?nr=81
@@ -136,7 +142,7 @@
 - year: 2024
   type: conference
   title: "The roots of facial expressions: Pragmatic and semantic facial expressions comprise biologically rooted facial movements"
-  with: Yichen Wu, Pablo Arias, Chaona Chen, Oliver G. B. Garrod, Philippe G. Schyns, and Rachael E. Jack
+  with: Chaona Chen, Yichen Wu, Pablo Arias Sarah, Oliver G. B. Garrod, Philippe G. Schyns, and Rachael E. Jack
   event: "15th International Conference on the Evolution of Language (EVOLANG XV)"
   place: Madison, WI, USA
 

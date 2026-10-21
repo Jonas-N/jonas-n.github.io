@@ -5,14 +5,15 @@
   place: Toruń, Poland
   start: May 2025
   end: present
-  note: Faculty of Humanities.
+  note: National Science Centre Poland (NCN) project led by Przemysław Żywiczyński.
 
-- role: Affiliate
+- role: Affiliate Researcher
   org: School of Psychology and Neuroscience, University of Glasgow
   url: https://www.gla.ac.uk/schools/psychologyneuroscience/staff/jonasn/
   place: Glasgow, UK
   start: July 2024
   end: present
+  note: Centre for Social, Cognitive and Affective Neuroscience.
 
 - role: Research Scientist
   org: Multimodal Language Department, Max Planck Institute for Psycholinguistics
@@ -20,9 +21,23 @@
   start: September 2024
   end: October 2024
 
-- role: Research Associate
+- role: Research Associate (postdoc)
   org: FACESYNTAX, School of Psychology and Neuroscience, University of Glasgow
   place: Glasgow, UK
   start: September 2020
   end: August 2024
-  note: ERC project led by Rachael Jack.
+  note: ERC Starting Grant led by Rachael E. Jack.
+
+- role: Tutor and Writing Tutor
+  org: School of Philosophy, Psychology and Language Sciences, University of Edinburgh
+  place: Edinburgh, UK
+  start: September 2016
+  end: "2020"
+  note: Tutorials in linguistics and cognitive science (2016–2019), and more than 90 one-to-one sessions at the PPLS Writing Centre (2018–2020).
+
+- role: Research Assistant
+  org: Interacting Minds Centre, Aarhus University
+  place: Aarhus, Denmark
+  start: January 2016
+  end: September 2016
+  note: Seed-fund project Contextual Factors Shaping the Emergence of Communication Systems.

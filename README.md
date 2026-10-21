@@ -17,21 +17,34 @@ folder and are **not** part of this repository.
 
 | What | Where |
 | --- | --- |
-| Name, email, links, postal address | `_config.yml` |
+| Name, email, address, profile links, navigation | `_config.yml` |
 | Papers | `_data/publications.yml` |
 | Talks | `_data/talks.yml` |
+| News on the home page | `_data/news.yml` |
+| The three research strands (home and research pages) | `_data/strands.yml` |
 | Jobs | `_data/positions.yml` |
 | Degrees | `_data/education.yml` |
-| Prose on Home, Research, CV | `index.md`, `research.md`, `cv.md` |
+| Prose on Home, Research, CV | `index.html`, `research.html`, `cv.html` |
+| Styles | `assets/css/style.css` |
+| Hero graphic, list filters, copy button | `assets/js/site.js` |
 | Portrait | `assets/img/jonas.jpg` |
 
+Pages are written as HTML with Liquid rather than Markdown, so indented
+`{% include %}` tags can never be rendered as code blocks again.
+
 To add a paper, copy a block in `_data/publications.yml`, give it a new `slug`,
-and set `type` to `article`, `chapter`, `proceedings`, `preprint`, `thesis`, or
-`edited`. Set `featured: true` to show it on the home page. Bold your own name
-with `**Nölle, J.**`.
+and set `type` to `article`, `chapter`, `proceedings`, `preprint`, `abstract`,
+`thesis`, or `edited`. Set `featured: true` to show it on the home page, and
+`status: Accepted` (or `In press`) to show a highlighted label. Bold your own
+name with `**Nölle, J.**`. The publications page groups by `year` and builds
+the filter buttons from the types it finds.
 
 To add a talk, copy a block in `_data/talks.yml`. `type` is `invited`,
-`conference`, or `poster`. Keep newer years above older ones.
+`conference`, or `poster`; `label` (for example `Keynote` or `Upcoming`) shows
+a highlighted tag.
+
+To add news, put a new item at the top of `_data/news.yml`. The home page shows
+the newest seven.
 
 ## Local preview
 
@@ -39,6 +52,9 @@ To add a talk, copy a block in `_data/talks.yml`. `type` is `invited`,
 bundle install
 bundle exec jekyll serve
 ```
+
+Without Bundler, `gem install jekyll webrick` and then
+`JEKYLL_NO_BUNDLER_REQUIRE=true jekyll serve` also works for a quick preview.
 
 Then open <http://127.0.0.1:4000/>.
 

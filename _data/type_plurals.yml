@@ -1,0 +1,11 @@
+# Filter button labels on the publications and talks pages.
+article: Journal articles
+chapter: Book chapters
+proceedings: Conference papers
+preprint: Preprints
+thesis: Thesis
+edited: Edited volumes
+abstract: Abstracts
+invited: Invited talks
+conference: Conference talks
+poster: Posters

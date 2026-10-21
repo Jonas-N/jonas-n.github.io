@@ -1,0 +1,23 @@
+# The three research strands on the home and research pages.
+# glyph is inline SVG drawn on a 48x48 grid.
+- id: faces
+  title: Faces in multimodal communication
+  summary: >-
+    Which facial movements carry meaning beyond emotion? With generative 3D face
+    models and reverse correlation, I map how upper-face movements change what
+    listeners infer from speech, for instance how confident a speaker seems.
+  glyph: '<circle cx="24" cy="26" r="15"/><path d="M14 17c3-3 6-3 8-1M26 16c2-2 5-2 8 1"/><path d="M18 33c4 3 8 3 12 0"/>'
+- id: vr
+  title: Virtual reality as a laboratory
+  summary: >-
+    Since my PhD I have built networked VR experiments in which two people share,
+    explore and talk about the same virtual world. VR keeps a manipulation exactly
+    constant while people interact freely and with their whole bodies.
+  glyph: '<path d="M4 40h40M10 32h28M15 26h18M24 22v18M16 22L6 40M32 22l10 18"/><path d="M15 22h18"/><circle cx="24" cy="12" r="4"/>'
+- id: emergence
+  title: How conventions emerge
+  summary: >-
+    When pairs of people invent a way to communicate from scratch, the structure
+    they settle on reflects the world they talk about and the pressures of the
+    interaction. I study how that happens, from silent gesture to spatial language.
+  glyph: '<circle cx="10" cy="24" r="5"/><circle cx="38" cy="24" r="5"/><path d="M15 21c6-6 12-6 18 0M15 27c6 6 12 6 18 0"/><path d="M19 24h10"/>'

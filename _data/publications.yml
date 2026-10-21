@@ -1,7 +1,21 @@
-# Newest first. type is article, chapter, proceedings, preprint, thesis, or edited.
+# Newest first. type is article, chapter, proceedings, preprint, abstract, thesis, or edited.
+# status (optional) shows a small highlighted label, e.g. Accepted or In press.
 # featured: true items appear on the home page, in this order.
 # Bold your own name with **Nölle, J.** so the publications page can pick it out.
 # To add a paper, copy a block and give it a new slug.
+
+- slug: postural-cognition-2027
+  year: 2027
+  type: article
+  featured: true
+  title: "Postural configurations as micro-ecological constraints: How embodied arrangements shape the emergence of bodily-visual communication"
+  authors: "Placiński, M., **Nölle, J.**, Sibierska, M., Kiljanek, B., Karkowska, K., & Żywiczyński, P."
+  venue: "*Cognition*, 278, 106736."
+  url: https://doi.org/10.1016/j.cognition.2026.106736
+  links:
+    - label: DOI
+      url: https://doi.org/10.1016/j.cognition.2026.106736
+  note: Published online in 2026.
 
 - slug: city-speaks-2026
   year: 2026
@@ -18,10 +32,9 @@
 - slug: evolutionary-linguistics-2026
   year: 2026
   type: chapter
-  featured: true
   title: "Evolutionary linguistics"
   authors: "**Nölle, J. M.**, Karjus, A., & Hartmann, S."
-  venue: "In *International Encyclopedia of Language and Linguistics* (pp. 375–379). Elsevier."
+  venue: "In H. Nesi & P. Milin (eds.), *International Encyclopedia of Language and Linguistics* (3rd ed., pp. 375–379). Elsevier."
   url: https://doi.org/10.1016/B978-0-323-95504-1.00907-8
   links:
     - label: DOI
@@ -29,15 +42,17 @@
     - label: Open access
       url: https://doi.org/10.31234/osf.io/rt5ha_v1
 
-- slug: confidence-preprint-2026
+- slug: confidence-2026
   year: 2026
-  type: preprint
+  type: article
   featured: true
   title: "Dynamic facial movements shape how confident speakers appear"
   authors: "**Nölle, J.**, Wu, Y., Arias Sarah, P., Garrod, O. G. B., Schyns, P. G., & Jack, R. E."
-  venue: "PsyArXiv preprint."
-  url: https://doi.org/10.31234/osf.io/8hqy9_v1
+  venue: "*Proceedings of the Royal Society B*, 293(2081), 20262044."
+  url: https://royalsocietypublishing.org/rspb/article/293/2081/20262044/483770/Dynamic-facial-movements-shape-how-confident
   links:
+    - label: Article
+      url: https://royalsocietypublishing.org/rspb/article/293/2081/20262044/483770/Dynamic-facial-movements-shape-how-confident
     - label: Preprint
       url: https://doi.org/10.31234/osf.io/8hqy9_v1
 
@@ -46,19 +61,20 @@
   type: chapter
   title: "Investigating language and cognition in virtual reality"
   authors: "**Nölle, J.**, Titus, A., Zhou, C., & Peeters, D."
-  venue: "Forthcoming in S. Hartmann & L. J. Speed (eds.), *The Bloomsbury Handbook of Language and Cognition*. Bloomsbury."
+  status: Forthcoming
+  venue: "In S. Hartmann & L. J. Speed (eds.), *The Routledge Handbook of Language and Cognition*. Routledge."
   url: https://doi.org/10.31234/osf.io/s2xdp_v1
   links:
     - label: Preprint
       url: https://doi.org/10.31234/osf.io/s2xdp_v1
-  note: Forthcoming chapter. The preprint is the public version.
+  note: The preprint is the public version until the book appears.
 
 - slug: pansimian-2026
   year: 2026
   type: proceedings
   title: "The pan-simian geocentric bias revisited: Novel spatial communication systems show a sagittal egocentric bias"
   authors: "**Nölle, J.**, Kirby, S., Culbertson, J., & Smith, K."
-  venue: "In *Proceedings of the 16th International Conference on the Evolution of Language (EVOLANG XVI)*. Plovdiv."
+  venue: "In *The Evolution of Language: Proceedings of the 16th International Conference (EVOLANG XVI)*. Nijmegen: The Evolution of Language Conferences."
   url: https://evolang.org/2026/proceedings/paper.html?nr=88
   links:
     - label: Proceedings
@@ -68,23 +84,47 @@
   year: 2026
   type: proceedings
   title: "Folk dance as an ancient semiotic system and cultural replicator"
-  authors: "Yiang, Y., Tinits, P., Tamariz, M., & **Nölle, J.**"
-  venue: "In *Proceedings of the 16th International Conference on the Evolution of Language (EVOLANG XVI)*. Plovdiv."
+  authors: "Jiang, Y., Tinits, P., Tamariz, M., & **Nölle, J.**"
+  venue: "In *The Evolution of Language: Proceedings of the 16th International Conference (EVOLANG XVI)*. Nijmegen: The Evolution of Language Conferences."
   url: https://evolang.org/2026/proceedings/paper.html?nr=90
   links:
     - label: Proceedings
       url: https://evolang.org/2026/proceedings/paper.html?nr=90
 
+- slug: field-framework-2026
+  year: 2026
+  type: proceedings
+  title: "A field-based framework to model multimodal value-governed exchange in human social interaction"
+  authors: "Zhou, C., Żywiczyński, P., & **Nölle, J.**"
+  venue: "In *The Evolution of Language: Proceedings of the 16th International Conference (EVOLANG XVI)*. Nijmegen: The Evolution of Language Conferences."
+  url: https://doi.org/10.17617/2.3696655
+  links:
+    - label: Proceedings
+      url: https://doi.org/10.17617/2.3696655
+
+- slug: mocap-pantomime-2026
+  year: 2026
+  type: proceedings
+  title: "How bodily affordances shape the evolution of a novel communication system: A motion-capture study of pantomime and gesture"
+  authors: "Żywiczyński, P., **Nölle, J.**, Karkowska, K., Sibierska, M., Kiljanek, B., & Placiński, M."
+  venue: "In *The Evolution of Language: Proceedings of the 16th International Conference (EVOLANG XVI)*. Nijmegen: The Evolution of Language Conferences."
+  url: https://evolang.org/2026/proceedings/paper.html?nr=41
+  links:
+    - label: Proceedings
+      url: https://evolang.org/2026/proceedings/paper.html?nr=41
+
 - slug: evolang16-edited
   year: 2026
   type: edited
-  title: "Proceedings of the 16th International Conference on the Evolution of Language (EVOLANG XVI)"
+  title: "The evolution of language: Proceedings of the 16th International Conference (EVOLANG XVI)"
   authors: "Hartmann, S., Sibierska, M., Fröhlich, M., Jadoul, Y., Josserand, M., Matzinger, T., Mudd, K., **Nölle, J.**, Pleyer, M., Wacewicz, S., & Żywiczyński, P. (eds.)"
-  venue: "The Evolution of Language Conferences."
-  url: https://sites.google.com/york.ac.uk/evolang2026
+  venue: "Nijmegen: The Evolution of Language Conferences."
+  url: https://doi.org/10.17617/2.3696655
   links:
-    - label: Conference
-      url: https://sites.google.com/york.ac.uk/evolang2026
+    - label: DOI
+      url: https://doi.org/10.17617/2.3696655
+    - label: Papers
+      url: https://evolang.org/2026/proceedings/
 
 - slug: oxford-vr-2025
   year: 2025
@@ -103,13 +143,26 @@
 - slug: roots-face-2024
   year: 2024
   type: proceedings
-  title: "The roots of facial expressions: Pragmatic and semantic facial expressions comprise biologically rooted facial movements"
-  authors: "**Nölle, J.**, Wu, Y., Arias, P., Chen, C., Garrod, O. G. B., Schyns, P. G., & Jack, R. E."
+  title: "The roots of facial expressions: Pragmatic and semantic facial expressions comprise biologically-rooted facial movements"
+  authors: "**Nölle, J.**, Chen, C., Wu, Y., Arias Sarah, P., Garrod, O. G. B., Schyns, P. G., & Jack, R. E."
   venue: "In *The Evolution of Language: Proceedings of the 15th International Conference (EVOLANG XV)*."
-  url: https://doi.org/10.17617/2.3587960
+  url: https://evolangconf.github.io/2024/proceedings/paper.html?nr=128
   links:
+    - label: Paper
+      url: https://evolangconf.github.io/2024/proceedings/paper.html?nr=128
     - label: Volume
       url: https://doi.org/10.17617/2.3587960
+
+- slug: jov-apology-2024
+  year: 2024
+  type: abstract
+  title: "Facial expressions of apology comprise complex social signals"
+  authors: "Wu, Y., **Nölle, J.**, Chen, C., Garrod, O. G. B., Ince, R. A. A., Schyns, P. G., & Jack, R. E."
+  venue: "*Journal of Vision*, 24(10), 868. Vision Sciences Society annual meeting."
+  url: https://doi.org/10.1167/jov.24.10.868
+  links:
+    - label: DOI
+      url: https://doi.org/10.1167/jov.24.10.868
 
 - slug: evolang15-edited
   year: 2024
@@ -152,7 +205,7 @@
   year: 2020
   type: article
   title: "CHIELD: The causal hypotheses in evolutionary linguistics database"
-  authors: "Roberts, S. G., et al. (including **Nölle, J.**)"
+  authors: "Roberts, S. G., Deb, A., Sheard, C., Greenhill, S. J., Sinnemäki, K., Segovia-Martín, J., **Nölle, J.**, … & Jordan, F."
   venue: "*Journal of Language Evolution*, 5(2), 101–120."
   url: https://doi.org/10.1093/jole/lzaa001
   links:
@@ -171,7 +224,7 @@
       url: https://doi.org/10.1163/22105832-bja10005
     - label: Preprint
       url: https://doi.org/10.31234/osf.io/7xwju
-  note: Introduces two special issues I guest-edited.
+  note: Introduces the two special issues we guest-edited.
 
 - slug: palgrave-2020
   year: 2020
@@ -186,6 +239,19 @@
       url: https://doi.org/10.1057/s41599-020-0404-9
     - label: Preprint
       url: https://doi.org/10.31234/osf.io/pk4xs
+    - label: Correction
+      url: https://doi.org/10.1057/s41599-020-0421-8
+
+- slug: jov-2021
+  year: 2021
+  type: abstract
+  title: "Facial expressions of emotion include iconic signals of rejection and acceptance"
+  authors: "**Nölle, J.**, Chen, C., Hensel, L. B., Garrod, O. G. B., Schyns, P. G., & Jack, R. E."
+  venue: "*Journal of Vision*, 21(9), 2932. Vision Sciences Society annual meeting."
+  url: https://doi.org/10.1167/jov.21.9.2932
+  links:
+    - label: DOI
+      url: https://doi.org/10.1167/jov.21.9.2932
 
 - slug: evolang13-vr
   year: 2020
@@ -195,7 +261,7 @@
   venue: "In A. Ravignani et al. (eds.), *The Evolution of Language: Proceedings of the 13th International Conference (EVOLANG XIII)*."
   url: https://doi.org/10.17617/2.3190925
   links:
-    - label: DOI
+    - label: Volume
       url: https://doi.org/10.17617/2.3190925
 
 - slug: evolang13-iconicity
@@ -206,7 +272,7 @@
   venue: "In A. Ravignani et al. (eds.), *The Evolution of Language: Proceedings of the 13th International Conference (EVOLANG XIII)*."
   url: https://doi.org/10.17617/2.3190925
   links:
-    - label: DOI
+    - label: Volume
       url: https://doi.org/10.17617/2.3190925
 
 - slug: cognition-2018
@@ -278,5 +344,7 @@
   links:
     - label: Edinburgh
       url: https://era.ed.ac.uk/handle/1842/38890
+    - label: DOI
+      url: https://doi.org/10.7488/era/2144
     - label: OSF
       url: https://doi.org/10.31237/osf.io/bfuvr

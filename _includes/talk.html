@@ -1,13 +1,9 @@
-<article class="talk">
-  <div class="talk-year">{{ include.talk.year }}</div>
-  <h3 class="talk-title">
-    {% if include.talk.url %}
-      <a href="{{ include.talk.url }}">{{ include.talk.title }}</a>
-    {% else %}
-      {{ include.talk.title }}
-    {% endif %}
-    {% if include.talk.label %}<span class="label">{{ include.talk.label }}</span>{% endif %}
-  </h3>
-  {% if include.talk.with %}<p class="talk-with">With {{ include.talk.with }}.</p>{% endif %}
-  <p class="talk-event">{{ include.talk.event }}{% if include.talk.place %} <span class="place">· {{ include.talk.place }}</span>{% endif %}</p>
+{%- assign t = include.talk -%}
+<article class="talk" data-type="{{ t.type }}">
+  <div class="talk-body">
+    <h3 class="talk-title">{% assign tt = t.title | default: t.event %}{% if t.url %}<a href="{{ t.url }}">{{ tt }}</a>{% else %}{{ tt }}{% endif %}</h3>
+    {% if t.with %}<p class="talk-with">With {{ t.with }}</p>{% endif %}
+    <p class="talk-event">{% if t.title %}{{ t.event }}{% if t.place %}, {{ t.place }}{% endif %}{% else %}{{ t.place }}{% endif %}</p>
+    <p class="pub-foot"><span class="pub-type">{{ site.data.types[t.type] | default: t.type }}</span>{% if t.label %}<span class="pub-status">{{ t.label }}</span>{% endif %}{% if t.note %}<span class="talk-note">{{ t.note }}</span>{% endif %}</p>
+  </div>
 </article>
